@@ -1,0 +1,67 @@
+# ===========================
+# Dependencies
+# ===========================
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+*.log
+
+# ===========================
+# Environment & Secrets
+# ===========================
+.env
+.env.*
+!.env.example
+*.local
+*.pem
+*.key
+*.crt
+*.cert
+*.secret
+secrets/
+credentials/
+
+# ===========================
+# Build Outputs
+# ===========================
+dist/
+dist-ssr/
+build/
+out/
+.cache/
+.parcel-cache/
+
+# ===========================
+# Testing & Coverage
+# ===========================
+coverage/
+.nyc_output/
+*.lcov
+test-results/
+
+# ===========================
+# OS & Editor Files
+# ===========================
+.DS_Store
+Thumbs.db
+Desktop.ini
+.vscode/*
+!.vscode/extensions.json
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+*.swp
+
+# ===========================
+# Misc
+# ===========================
+*.tgz
+*.zip
+*.tar.gz
+.eslintcache

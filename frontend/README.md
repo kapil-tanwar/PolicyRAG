@@ -1,16 +1,21 @@
-# React + Vite
+# Frontend — PolicyRAG
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+React + Vite frontend for the PolicyRAG system.
 
-Currently, two official plugins are available:
+## Setup
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+```bash
+npm install
+npm run dev
+```
 
-## React Compiler
+Open **http://localhost:5173** in Google Chrome (required for voice/microphone features).
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Features
 
-## Expanding the Oxlint configuration
+- Document upload and RAG question-answering interface
+- Browser-based Voice Agent with Speech-to-Text and Text-to-Speech
+- Multi-language support (US English, Philippines Taglish, Indonesia Bahasa)
+- Real-Time Agent Dashboard with live nudges via WebSocket
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+> **Note:** The backend server must be running on `http://localhost:5000` before using the frontend.
